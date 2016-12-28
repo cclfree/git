@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>git</title>
+  <subtitle>git에 대한 거의 모든 것</subtitle>
+  <link href="/feed.xml" rel="self"/>
+  
+  <link href="http://git.ampm.gq/"/>
+  <updated>2016-12-28T05:31:19.732Z</updated>
+  <id>http://git.ampm.gq/</id>
+  
+  <author>
+    <name>ampm</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodemon 설치 및 실행</title>
+    <link href="http://git.ampm.gq/2016/12/21/nodemon-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89/"/>
+    <id>http://git.ampm.gq/2016/12/21/nodemon-설치-및-실행/</id>
+    <published>2016-12-21T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:19.732Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://cfile22.uf.tistory.com/image/272699505859BEFE1E08D0" alt=""></h2><p></p><h1><strong>두줄 요약</strong></h1><p></p>
+<ul>
+<li><span>＊출처: <a href="https://github.com/remy/nodemon" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/remy/nodemon</a></span> </li>
+<li><span>npm insta ll -g nodemon</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>[2016-12-19 월요일]＊내용:1. 기능: 파일 변경 시 auto restart node<br>＊출처: <a href="https://github.com/remy/nodemon" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/remy/nodemon</a><br>npm insta ll -g nodemon<br>1. Git 사용법</div>
+
+<hr>
+<p><a href="http://windingroad.tistory.com/24" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://windingroad.tistory.com/24</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/272699505859BEFE1E08D0&quot; alt=&quot;&quot;&gt;&lt;/h2&gt;&lt;p&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="설치" scheme="http://git.ampm.gq/tags/%EC%84%A4%EC%B9%98/"/>
+    
+      <category term="nodemon" scheme="http://git.ampm.gq/tags/nodemon/"/>
+    
+      <category term="실행" scheme="http://git.ampm.gq/tags/%EC%8B%A4%ED%96%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SouceTree를 이용한 GitHub 사용법</title>
+    <link href="http://git.ampm.gq/2016/12/20/SouceTree%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-GitHub-%EC%82%AC%EC%9A%A9%EB%B2%95/"/>
+    <id>http://git.ampm.gq/2016/12/20/SouceTree를-이용한-GitHub-사용법/</id>
+    <published>2016-12-20T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:20.432Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://cfile3.uf.tistory.com/image/27493A4F58593EFA067AC3" alt=""></h2><p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>운영체제는 윈도우라는 가정하에 시작하겠습니다.</span> </li>
+<li><span>1. <a href="https://github.com" rel="external nofollow noopener noreferrer" target="_blank">https://github.com</a> 에 접속하여 회원가입/ 로그인을 합니다. 회원가입시 플랜은 Free로2. 오른쪽 상단의 플러스 아이콘을 누른 후 New repository를 선택하여 저장소를 생성합니다.3. 저장소의 이름을 작성하고 Initialize the repository with a README 에 체크합니다. 4. 다음과 같은 저장소가 생성됩니다.</span> </li>
+<li><span>8. [Tool]-[Options]에서 Default user information을 설정합니다. 이곳에서 설정하면 별도로 설정하지 않은 모든 저장소에 이 설정이 사용됩니다.9. SourceTree의 도구모음에서 Git Flow를 클릭합니다.</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>운영체제는 윈도우라는 가정하에 시작하겠습니다.<br>1. <a href="https://github.com" rel="external nofollow noopener noreferrer" target="_blank">https://github.com</a> 에 접속하여 회원가입/ 로그인을 합니다. 회원가입시 플랜은 Free로2. 오른쪽 상단의 플러스 아이콘을 누른 후 New repository를 선택하여 저장소를 생성합니다.3. 저장소의 이름을 작성하고 Initialize the repository with a README 에 체크합니다. 4. 다음과 같은 저장소가 생성됩니다.<br>5. SourceTree의 도구모음에서 Clone을 클릭합니다.6. 깃허브 웹페이지에서 생성했던 저장소 주소를 입력합니다. </div>
+
+<hr>
+<p><a href="http://iam-jun.tistory.com/25" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://iam-jun.tistory.com/25</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/27493A4F58593EFA067AC3&quot; alt=&quot;&quot;&gt;&lt;/h2&gt;&lt;p&gt;&lt;/
+    
+    </summary>
+    
+    
+      <category term="이용한" scheme="http://git.ampm.gq/tags/%EC%9D%B4%EC%9A%A9%ED%95%9C/"/>
+    
+      <category term="사용법" scheme="http://git.ampm.gq/tags/%EC%82%AC%EC%9A%A9%EB%B2%95/"/>
+    
+      <category term="SouceTree" scheme="http://git.ampm.gq/tags/SouceTree/"/>
+    
+      <category term="GitHub" scheme="http://git.ampm.gq/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vim 사용법 및 설정</title>
+    <link href="http://git.ampm.gq/2016/12/20/vim-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%84%A4%EC%A0%95/"/>
+    <id>http://git.ampm.gq/2016/12/20/vim-사용법-및-설정/</id>
+    <published>2016-12-20T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:21.716Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>Vim 이란?</span> </li>
+<li><span>여기까지 왔다면, 이제 vim 을 키고, :PluginInstall 을 수행하면, vim 좌측 부분에서 짜자잔~ 하고 플러그인들이 설치된다. 여기까지 했다면, 이제 Vundle 을 이용하여 플러그인들을 설치할 수 있다는 것이다!</span> </li>
+<li><span>YouCompleteMe</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>Vim 이란?<br>vim 은 vi improved 의 줄임말로써, 리눅스에서 가장 활발히 사용되던 vi 에디터의 발전된 에디터 중 가장 사랑받고 있는 에디터이다. 원래 글쓴이는 sublime text editor의 성애자(?) 이긴 한데, vim 만큼 뭔가 geek 스럽고, 가끔 sublime 이 말을 듣지 않을 때가 많아(코드 30000줄 짜리를 sublime 에 불러오면…) vim 도 자주 사용하는 편이다. 그리고 CLI 환경에 익숙해지면 나중에 리눅스를 사용할 때에도 덜 지장을 받을 테니, 그만큼 만족하면서 사용하고 있다.<br></div>
+
+<hr>
+<p><a href="http://strender.tistory.com/3" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://strender.tistory.com/3</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;strong&gt;세줄 요약&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Vim 이란?&lt;/span&gt; &lt;/li&gt;
+&lt;li&gt;&lt;span&gt;여기까지 왔다면, 이제 vim 을 키고, :PluginInstall 을 수행하면, vi
+    
+    </summary>
+    
+    
+      <category term="사용법" scheme="http://git.ampm.gq/tags/%EC%82%AC%EC%9A%A9%EB%B2%95/"/>
+    
+      <category term="vim" scheme="http://git.ampm.gq/tags/vim/"/>
+    
+      <category term="설정" scheme="http://git.ampm.gq/tags/%EC%84%A4%EC%A0%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Laravel Homestead 사용하기</title>
+    <link href="http://git.ampm.gq/2016/12/19/Laravel-Homestead-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"/>
+    <id>http://git.ampm.gq/2016/12/19/Laravel-Homestead-사용하기/</id>
+    <published>2016-12-19T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:26.200Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://cfile29.uf.tistory.com/image/2213143E58578FA9101D26" alt=""></h2><p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>(3) Homestead.yaml 설정</span> </li>
+<li><span># %WINDIR%\System32\drivers\etc\hosts</span> </li>
+<li><span>elsif File.exist? homesteadJsonPath then</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>Laravel Homestead 사용하기<br>Laravel은 로컬 개발환경을 포함해서 PHP 개발 경험 전체를 즐겁도록 하기 위한 노력을 많이 한다고 설명하며,  그것은 Homestead다.<br>(먼저 필요한 것 중에서) Vagrant는 쉽고 우아한 방법으로 가상머신 관리와 공급을 제공한다. ( 가상화 인스턴스인 Virtual Machine을 관리하는 소프트웨어 이다. )<br>Oracle Virtual Box와 Vagrant를 설치 해야 한다.<br>여러 Provider를 지원하기는 하지만, 기본 Provider는 VirtualBox이다.<br>=&gt;</div>
+
+<hr>
+<p><a href="http://printhelloworld.tistory.com/74" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://printhelloworld.tistory.com/74</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2213143E58578FA9101D26&quot; alt=&quot;&quot;&gt;&lt;/h2&gt;&lt;p&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="Laravel" scheme="http://git.ampm.gq/tags/Laravel/"/>
+    
+      <category term="Homestead" scheme="http://git.ampm.gq/tags/Homestead/"/>
+    
+      <category term="사용하기" scheme="http://git.ampm.gq/tags/%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>우분투 16.04에서 각종 유틸 및 그래픽 드라이버 설치하기</title>
+    <link href="http://git.ampm.gq/2016/12/18/%EC%9A%B0%EB%B6%84%ED%88%AC-16.04%EC%97%90%EC%84%9C-%EA%B0%81%EC%A2%85-%EC%9C%A0%ED%8B%B8-%EB%B0%8F-%EA%B7%B8%EB%9E%98%ED%94%BD-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/"/>
+    <id>http://git.ampm.gq/2016/12/18/우분투-16.04에서-각종-유틸-및-그래픽-드라이버-설치하기/</id>
+    <published>2016-12-18T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:30.324Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>리브레오피스 라이터(writer)에서 hwp문서를 열어볼 수 있게 하는 달콤 필터를 PPA를 통해 설치하는 방법입니다.</span> </li>
+<li><span>AMD 그래픽 드라이버 설치sudo apt-get install xserver-xorg-video-amdgpu</span> </li>
+<li><span>* root 계정의 암호 생성 : sudo passwd root</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>아래 내용을 터미널(ctrl+alt+t)에서 복사/붙여넣기 하십시오.sudo apt-get update &amp;&amp; sudo apt-get install chromium-browser chromium-browser-l10n gstreamer1.0-fluendo-mp3 gstreamer1.0-libav gstreamer1.0-packagekit gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly frei0r-plugins libmatroska6v5 unrar gdebi lame x264 x265 cla</div>
+
+<hr>
+<p><a href="http://optic.tistory.com/119" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://optic.tistory.com/119</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;strong&gt;세줄 요약&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;리브레오피스 라이터(writer)에서 hwp문서를 열어볼 수 있게 하는 달콤 필터를 PPA를 통해 설치하는 방법입니다.&lt;/span&gt; &lt;/li&gt;
+    
+    </summary>
+    
+    
+      <category term="우분투" scheme="http://git.ampm.gq/tags/%EC%9A%B0%EB%B6%84%ED%88%AC/"/>
+    
+      <category term="1604에서" scheme="http://git.ampm.gq/tags/1604%EC%97%90%EC%84%9C/"/>
+    
+      <category term="각종" scheme="http://git.ampm.gq/tags/%EA%B0%81%EC%A2%85/"/>
+    
+      <category term="유틸" scheme="http://git.ampm.gq/tags/%EC%9C%A0%ED%8B%B8/"/>
+    
+      <category term="그래픽" scheme="http://git.ampm.gq/tags/%EA%B7%B8%EB%9E%98%ED%94%BD/"/>
+    
+      <category term="드라이버" scheme="http://git.ampm.gq/tags/%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84/"/>
+    
+      <category term="설치하기" scheme="http://git.ampm.gq/tags/%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>stream 테스트 환경 구축 작업 기록</title>
+    <link href="http://git.ampm.gq/2016/12/13/stream-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95-%EC%9E%91%EC%97%85-%EA%B8%B0%EB%A1%9D/"/>
+    <id>http://git.ampm.gq/2016/12/13/stream-테스트-환경-구축-작업-기록/</id>
+    <published>2016-12-13T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:38.644Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>1. 작업목록</span> </li>
+<li><span>2. 기타기업: 상용 기업 <a href="https://www.gridgain.com/source" rel="external nofollow noopener noreferrer" target="_blank">https://www.gridgain.com/source</a> .bash_profile</span> </li>
+<li><span>1. maven으로 ignite 폴더에서 다시 설치함2. bin/ignite.sh examples/config/example-ignite.xml   &gt;&gt;&gt; 첫번째 콘솔부터 이렇게 해야 그리드 노드가 하나씩 추가 연결됨</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>1. 작업목록<br>12/13, - docker 설치- git 설치- docker에서 ignite(이미지) 설치  . docker run 했는데, permission denied가 나와서… docker run –previleged docker.io/apacheignite/ignite 으로 설치함&gt;&gt; Docker에서 설치한 경우 ignite 접근에 어려움 있음(예: 아마도…. 접근 코드에서 docker exec … 등과 같은 command 추가 필요)<br>- ignite zip 파일 다운로드 후 압축 해제 &gt; IGNITE_HOME</div>
+
+<hr>
+<p><a href="http://profound-note.tistory.com/30" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://profound-note.tistory.com/30</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;strong&gt;세줄 요약&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;1. 작업목록&lt;/span&gt; &lt;/li&gt;
+&lt;li&gt;&lt;span&gt;2. 기타기업: 상용 기업 &lt;a href=&quot;https://www.gridgain.com
+    
+    </summary>
+    
+    
+      <category term="환경" scheme="http://git.ampm.gq/tags/%ED%99%98%EA%B2%BD/"/>
+    
+      <category term="stream" scheme="http://git.ampm.gq/tags/stream/"/>
+    
+      <category term="테스트" scheme="http://git.ampm.gq/tags/%ED%85%8C%EC%8A%A4%ED%8A%B8/"/>
+    
+      <category term="구축" scheme="http://git.ampm.gq/tags/%EA%B5%AC%EC%B6%95/"/>
+    
+      <category term="작업" scheme="http://git.ampm.gq/tags/%EC%9E%91%EC%97%85/"/>
+    
+      <category term="기록" scheme="http://git.ampm.gq/tags/%EA%B8%B0%EB%A1%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ignore plugin</title>
+    <link href="http://git.ampm.gq/2016/12/11/ignore-plugin/"/>
+    <id>http://git.ampm.gq/2016/12/11/ignore-plugin/</id>
+    <published>2016-12-11T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:40.428Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://cfile8.uf.tistory.com/image/244ABC4E584D9E6910BA82" alt=""></h2><p></p><h1><strong>두줄 요약</strong></h1><p></p>
+<ul>
+<li><span>그렇게 찾아본 ignore 플러그인은 정말 괜츈하더이다.</span> </li>
+<li><span>크리에이티브 커먼즈 라이선스이 저작물은 크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스에 따라 이용하실 수 있습니다.</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>버전 관리는 git 이다 subversion 이다 여러가지 붙여놓구선 ignore 파일 생성을 쉽게 관리할 수 없게 한건 너무한거 아님?[Setting] - [Version Control] - [Ignored Files] 에 추가하는건 버전관리도 안되고 공유도 안되고 쫌 그런데…<br>그렇게 찾아본 ignore 플러그인은 정말 괜츈하더이다.<br>여러가지 ignore 파일 생성도 쉽고, 하이라이팅에, 템플릿 제공까지.이 플러그인 하나로 ignore 은 끝!<br>크리에이티브 커먼즈 라이선스이 저작물은 크리에이티브 커먼즈 코리아 저작자표시-비영리</div>
+
+<hr>
+<p><a href="http://www.oops4u.com/2199" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://www.oops4u.com/2199</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/244ABC4E584D9E6910BA82&quot; alt=&quot;&quot;&gt;&lt;/h2&gt;&lt;p&gt;&lt;/
+    
+    </summary>
+    
+    
+      <category term="ignore" scheme="http://git.ampm.gq/tags/ignore/"/>
+    
+      <category term="plugin" scheme="http://git.ampm.gq/tags/plugin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Switch Accounts</title>
+    <link href="http://git.ampm.gq/2016/12/10/Switch-Accounts/"/>
+    <id>http://git.ampm.gq/2016/12/10/Switch-Accounts/</id>
+    <published>2016-12-10T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:44.332Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://cfile10.uf.tistory.com/image/2538F643584D230B324B2F" alt=""></h2><p></p><h1><strong>두줄 요약</strong></h1><p></p>
+<ul>
+<li><span>$ git push</span> </li>
+<li><span>크리에이티브 커먼즈 라이선스이 저작물은 크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스에 따라 이용하실 수 있습니다.</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>$ git push<br>remote: Permission to username1/repo.git denied to username2.fatal: unable to access ‘<a href="https://github.com/username1/repo.git/&#39;:The" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/username1/repo.git/&#39;:The</a> requested URL returned error: 403<br>github 에 등록된 계정간 전환 불가.해당 프로젝트의 git config 에 user.name / user.email 를 변경했는데도 자꾸 기존 username 으로 push 를 시도하는 이 퐝당한 순간.검색하다가 ssh</div>
+
+<hr>
+<p><a href="http://www.oops4u.com/2198" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://www.oops4u.com/2198</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2538F643584D230B324B2F&quot; alt=&quot;&quot;&gt;&lt;/h2&gt;&lt;p&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="Switch" scheme="http://git.ampm.gq/tags/Switch/"/>
+    
+      <category term="Accounts" scheme="http://git.ampm.gq/tags/Accounts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>이클립스 아이콘 정보</title>
+    <link href="http://git.ampm.gq/2016/12/10/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%A0%95%EB%B3%B4/"/>
+    <id>http://git.ampm.gq/2016/12/10/이클립스-아이콘-정보/</id>
+    <published>2016-12-10T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:43.340Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://help.eclipse.org/neon/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/cf_obj.png" alt=""></h2><p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>adornment that marks an exception breakpoint</span> </li>
+<li><span>currently running test</span> </li>
+<li><span>interface outside of selected package</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>Git이랑 연결된 폴더에 있던 파일들로 이클립스 프로젝트를 만들었더니아이콘들 옆에 오렌지색 네모가 생겨서 뭔가 하고 찾아봤더니Version Control 상태라는 의미라고 한다.<br>이클립스 Concurrent Version Control 아이콘 일람<br>CVS Label Decorations<br> Label Decorations are used by CVS to show important synchronization<br>  information about workspace resources. Decorations can affect the t</div>
+
+<hr>
+<p><a href="http://ark1230.tistory.com/30" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://ark1230.tistory.com/30</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;http://help.eclipse.org/neon/topic/org.eclipse.jdt.doc.user/images/org.eclip
+    
+    </summary>
+    
+    
+      <category term="이클립스" scheme="http://git.ampm.gq/tags/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4/"/>
+    
+      <category term="아이콘" scheme="http://git.ampm.gq/tags/%EC%95%84%EC%9D%B4%EC%BD%98/"/>
+    
+      <category term="정보" scheme="http://git.ampm.gq/tags/%EC%A0%95%EB%B3%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>파이썬 ImportError- No module named requests</title>
+    <link href="http://git.ampm.gq/2016/12/08/%ED%8C%8C%EC%9D%B4%EC%8D%AC-ImportError--No-module-named-requests/"/>
+    <id>http://git.ampm.gq/2016/12/08/파이썬-ImportError--No-module-named-requests/</id>
+    <published>2016-12-08T00:00:00.000Z</published>
+    <updated>2016-12-28T05:31:48.484Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>ImportError: No module named requests</span> </li>
+<li><span>혹시 requests를 설치하려는데 아래와 같은 메시지가 나타난면..Requirement already satisfied (use –upgrade to upgrade): requests in /usr/local/lib/python3.5/dist-packages</span> </li>
+<li><span>$ cd requests$ sudo python setup.py install</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>ImportError: No module named requests<br>requests 모듈이 없다는 얘기이다.<br>아래의 명령으로 설치를 한다.<br>$sudo pip install requests<br>만약 pip가 설치되어 있지 않다면 pip부터 설치하자.<br>$sudo apt install python-pip<br>혹시 requests를 설치하려는데 아래와 같은 메시지가 나타난면..Requirement already satisfied (use –upgrade to upgrade): requests in /usr/local/lib/python3.5/d</div>
+
+<hr>
+<p><a href="http://chandong83.tistory.com/48" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://chandong83.tistory.com/48</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;strong&gt;세줄 요약&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;ImportError: No module named requests&lt;/span&gt; &lt;/li&gt;
+&lt;li&gt;&lt;span&gt;혹시 requests를 설치하려는
+    
+    </summary>
+    
+    
+      <category term="파이썬" scheme="http://git.ampm.gq/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/"/>
+    
+      <category term="ImportError-" scheme="http://git.ampm.gq/tags/ImportError/"/>
+    
+      <category term="No" scheme="http://git.ampm.gq/tags/No/"/>
+    
+      <category term="module" scheme="http://git.ampm.gq/tags/module/"/>
+    
+      <category term="named" scheme="http://git.ampm.gq/tags/named/"/>
+    
+      <category term="requests" scheme="http://git.ampm.gq/tags/requests/"/>
+    
+  </entry>
+  
+</feed>

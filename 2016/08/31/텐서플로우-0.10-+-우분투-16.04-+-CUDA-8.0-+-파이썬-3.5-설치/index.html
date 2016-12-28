@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>텐서플로우 0.10 + 우분투 16.04 + CUDA 8.0 + 파이썬 3.5 설치 | git</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="설치,우분투,텐서플로우,8,1604,CUDA,80,파이썬,35">
+    
+    <meta name="description" content="세줄 요약
+
+아래에 빨간 글자처럼 입력한다. ‘엔터’라고 되어 있는 항목은 default 값을 사용한다는 뜻이다. 가장 중요한 항목은 두 번째에 있는 361.77 드라이버 설치 문항이다. yes라고 입력하면, 앞에서 설치한 최신 버전을 덮어 쓴다. sample은 설치하지 않아도 되지만, CUDA가 설치되었는지 sample을 통해 확인할 수 있기 때문에 설치">
+<meta property="og:type" content="article">
+<meta property="og:title" content="텐서플로우 0.10 + 우분투 16.04 + CUDA 8.0 + 파이썬 3.5 설치">
+<meta property="og:url" content="http://git.ampm.gq/2016/08/31/텐서플로우-0.10-+-우분투-16.04-+-CUDA-8.0-+-파이썬-3.5-설치/index.html">
+<meta property="og:site_name" content="git">
+<meta property="og:description" content="세줄 요약
+
+아래에 빨간 글자처럼 입력한다. ‘엔터’라고 되어 있는 항목은 default 값을 사용한다는 뜻이다. 가장 중요한 항목은 두 번째에 있는 361.77 드라이버 설치 문항이다. yes라고 입력하면, 앞에서 설치한 최신 버전을 덮어 쓴다. sample은 설치하지 않아도 되지만, CUDA가 설치되었는지 sample을 통해 확인할 수 있기 때문에 설치">
+<meta property="og:image" content="http://cfile28.uf.tistory.com/image/2437824057C648EF1EDA50">
+<meta property="og:updated_time" content="2016-12-28T05:35:13.670Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="텐서플로우 0.10 + 우분투 16.04 + CUDA 8.0 + 파이썬 3.5 설치">
+<meta name="twitter:description" content="세줄 요약
+
+아래에 빨간 글자처럼 입력한다. ‘엔터’라고 되어 있는 항목은 default 값을 사용한다는 뜻이다. 가장 중요한 항목은 두 번째에 있는 361.77 드라이버 설치 문항이다. yes라고 입력하면, 앞에서 설치한 최신 버전을 덮어 쓴다. sample은 설치하지 않아도 되지만, CUDA가 설치되었는지 sample을 통해 확인할 수 있기 때문에 설치">
+<meta name="twitter:image" content="http://cfile28.uf.tistory.com/image/2437824057C648EF1EDA50">
+    
+
+    
+        <link rel="alternate" href="/feed.xml" title="git" type="application/atom+xml">
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+    
+    
+
+</head>
+</html>
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logotext"><h1>git</h1></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">git에 대한 거의 모든 것</p>
+                        </h2>
+                    
+                </div>
+                <div class="ads_adsense_img">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- 디스플레이광고만 -->
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8393857339019314" data-ad-slot="7474886381" data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/">홈</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="힌트">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: '페이지',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '제목없음',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    카테고리 없음
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-텐서플로우-0.10-+-우분투-16.04-+-CUDA-8.0-+-파이썬-3.5-설치" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        텐서플로우 0.10 + 우분투 16.04 + CUDA 8.0 + 파이썬 3.5 설치
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-subtitle">
+                <a href="/2016/08/31/텐서플로우-0.10-+-우분투-16.04-+-CUDA-8.0-+-파이썬-3.5-설치/" class="article-date">
+    <time datetime="2016-08-31T00:00:00.000Z" itemprop="datePublished">2016-08-31</time>
+</a>
+                
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/1604/">1604</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/35/">35</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/8/">8</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/80/">80</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CUDA/">CUDA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/설치/">설치</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/우분투/">우분투</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/텐서플로우/">텐서플로우</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/파이썬/">파이썬</a></li></ul>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://cfile28.uf.tistory.com/image/2437824057C648EF1EDA50" alt=""></h2><p></p><h1><strong>세줄 요약</strong></h1><p></p>
+<ul>
+<li><span>아래에 빨간 글자처럼 입력한다. ‘엔터’라고 되어 있는 항목은 default 값을 사용한다는 뜻이다. 가장 중요한 항목은 두 번째에 있는 361.77 드라이버 설치 문항이다. yes라고 입력하면, 앞에서 설치한 최신 버전을 덮어 쓴다. sample은 설치하지 않아도 되지만, CUDA가 설치되었는지 sample을 통해 확인할 수 있기 때문에 설치하는 것이 좋다.</span> </li>
+<li><span>Installing the CUDA Toolkit in /usr/local/cuda-8.0 …</span> </li>
+<li><span>파이썬 3.5</span></li>
+</ul>
+<hr>
+<p></p><h1><strong>미리 읽기</strong></h1><p></p>
+<div>이번 글의 수명이 길지는 않을 것으로 보인다. 텐서플로우는 RC 버전이고, 그래픽 카드 또한 최신이고, 우분투 16.04도 방금 나온 최신 버전이고, 파이썬도 최신 버전이고. 검증하지 않은 것들이 모일 수 있기 때문에 설치 과정에서 수많은 시행착오를 거칠 수밖에 없었다. 최신이어서 참고할 사이트도 많이 없다.<br>컴퓨터 사양<br>문제점1. 지포스 10 시리즈는 PASCAL 방식으로 제작되었다고 한다. 그래서인지 CUDA 7.5와 연동하면 정확도가 떨어지는 문제점이 있었다. 90%의 정확도가 아니라 10%의 정확도로 나와서 경악을 금치 못했</div>
+
+<hr>
+<p><a href="http://pythonkim.tistory.com/71" rel="external nofollow noopener noreferrer" target="_blank">원본글 : http://pythonkim.tistory.com/71</a> | <a href="mailto:wpcontenttk@gmail.com" rel="external nofollow noopener noreferrer" target="_blank">수집 관련 피드백 : wpcontenttk@gmail.com</a><br>CCL License. 저작자 표시.</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://git.ampm.gq/2016/08/31/텐서플로우-0.10-+-우분투-16.04-+-CUDA-8.0-+-파이썬-3.5-설치/" data-id="cix8ihcxe0046q4ffly4le5wl" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+    </section>
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>팔로우:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/feed.xml" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/08/31/Enventor/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">새로운 글</strong>
+        <p class="article-nav-title">
+        
+            Enventor
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2016/08/29/Window에서-GitHub사용하기/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">오래된 글</strong>
+        <p class="article-nav-title">Window에서 GitHub사용하기</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">최신 글</h3>
+        <div class="widget">
+            <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/12/21/nodemon-설치-및-실행/" class="title">nodemon 설치 및 실행</a></p>
+                            <p class="item-date"><time datetime="2016-12-21T00:00:00.000Z" itemprop="datePublished">2016-12-21</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/12/20/SouceTree를-이용한-GitHub-사용법/" class="title">SouceTree를 이용한 GitHub 사용법</a></p>
+                            <p class="item-date"><time datetime="2016-12-20T00:00:00.000Z" itemprop="datePublished">2016-12-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/12/20/vim-사용법-및-설정/" class="title">vim 사용법 및 설정</a></p>
+                            <p class="item-date"><time datetime="2016-12-20T00:00:00.000Z" itemprop="datePublished">2016-12-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/12/19/Laravel-Homestead-사용하기/" class="title">Laravel Homestead 사용하기</a></p>
+                            <p class="item-date"><time datetime="2016-12-19T00:00:00.000Z" itemprop="datePublished">2016-12-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/12/18/우분투-16.04에서-각종-유틸-및-그래픽-드라이버-설치하기/" class="title">우분투 16.04에서 각종 유틸 및 그래픽 드라이버 설치하기</a></p>
+                            <p class="item-date"><time datetime="2016-12-18T00:00:00.000Z" itemprop="datePublished">2016-12-18</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <div class="ads_adsense_img">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 디스플레이광고만 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8393857339019314" data-ad-slot="7474886381" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logotext"><h1>git</h1></a>
+                </h1>
+                <p>&copy; 2016 ampm</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+

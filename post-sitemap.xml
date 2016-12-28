@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://git.ampm.gq</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/04/11/Kernel-ipv6_addr_copy-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9%EC%97%86%EC%9D%B4-in6_addr-%EB%8C%80%EC%9E%85/</loc>
+        <lastmod>2016-12-28T05:38:53.232Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/05/06/Git.exe-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EC%B0%BE%EC%9D%84-%EC%88%98-%EC%97%86%EC%8A%B5%EB%8B%88%EB%8B%A4.--%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:38:22.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/05/13/coreboot/</loc>
+        <lastmod>2016-12-28T05:38:10.525Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/05/15/%EB%B2%88%EC%97%AD)-Windows-Subsystem-for-Linux%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/</loc>
+        <lastmod>2016-12-28T05:38:06.489Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/05/28/vim-plugin-manager-vundle/</loc>
+        <lastmod>2016-12-28T05:37:36.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/05/28/ubuntu-%EC%84%A4%EC%B9%98%ED%9B%84-clojure-%EC%84%B8%ED%8C%85%EA%B9%8C%EC%A7%80%EC%9D%98-%EC%88%9C%EC%84%9C/</loc>
+        <lastmod>2016-12-28T05:37:35.789Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/10/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94-Projects-Overview-(2)/</loc>
+        <lastmod>2016-12-28T05:37:17.761Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/10/%EB%B9%8C%EB%93%9C-%EA%B0%9C%EC%9A%94-Build-Overview-(3)/</loc>
+        <lastmod>2016-12-28T05:37:16.285Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/14/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%84%BC%EC%84%9C%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B0%A9%ED%96%A5%EA%B3%84%EC%82%B0-%EB%B0%8F-%EB%B2%A1%ED%84%B0%ED%91%9C%EC%8B%9C/</loc>
+        <lastmod>2016-12-28T05:37:08.189Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/15/repo-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:37:06.169Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/16/%EA%B1%B8%EC%9D%8C%EC%88%98+%EC%9C%84%EC%B9%98%ED%8C%8C%EC%95%85-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%A7%8C%EB%93%A4%EA%B8%B0%5D1%EB%8B%A8%EA%B3%84---%EB%B2%A0%ED%84%B0%EB%A6%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%95%88.../</loc>
+        <lastmod>2016-12-28T05:37:02.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/20/Sublime-Text%EC%97%90%EC%84%9C-github-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:37:01.313Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/23/Git%EC%9D%80-%EB%B6%84%EC%82%B0%EB%B2%84%EC%A0%84-%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%B4%EB%8B%A4./</loc>
+        <lastmod>2016-12-28T05:36:54.729Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/24/Synology-Git-Server-%EC%83%9D%EC%84%B1/</loc>
+        <lastmod>2016-12-28T05:36:52.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/06/30/16%EC%9E%A5-Angular.js-%EC%84%A4%EC%B9%98-,-bower-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9D%98%EC%A1%B4%EC%84%B1-%EA%B4%80%EB%A6%AC/</loc>
+        <lastmod>2016-12-28T05:36:49.185Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/06/vagrant-%ED%99%9C%EC%9A%A9---Windows---IE/</loc>
+        <lastmod>2016-12-28T05:36:39.245Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/07/18%EC%9E%A5-Angular.js-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%9D%BC%EC%9A%B0%ED%8C%85-%EC%B2%98%EB%A6%AC/</loc>
+        <lastmod>2016-12-28T05:36:36.069Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/08/%EB%A0%88%EB%93%9C%EB%A7%88%EC%9D%B8-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%84%A4%EC%B9%98---%EC%B6%94%EA%B0%80%EC%98%88%EC%A0%95/</loc>
+        <lastmod>2016-12-28T05:36:33.245Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/10/NPM-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:36:30.781Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/13/Ubuntu-14.04-LTS%EC%97%90%EC%84%9C-mean-stack-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95(with-generator)/</loc>
+        <lastmod>2016-12-28T05:36:24.453Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/13/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Camera2-%EC%BA%A1%EC%B3%90%EA%B8%B0%EB%8A%A5/</loc>
+        <lastmod>2016-12-28T05:36:22.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/20/ERROR%5DThe-file-%E2%80%9CPods.xcconfig%E2%80%9D-couldn%E2%80%99t-be-opened-because-there-is.../</loc>
+        <lastmod>2016-12-28T05:36:17.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/20/cocoapods-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9/</loc>
+        <lastmod>2016-12-28T05:36:15.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/23/pip-%EC%A0%80%EC%9E%A5-%EA%B2%BD%EB%A1%9C-%EC%98%A4%EB%A5%98/</loc>
+        <lastmod>2016-12-28T05:36:08.438Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/27/Ubuntu-Setting/</loc>
+        <lastmod>2016-12-28T05:36:05.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/27/Gitflow-Workflow,-issue-%EA%B8%B0%EB%B0%98%EC%9D%98-branch-%EA%B4%80%EB%A6%AC%EB%B2%95/</loc>
+        <lastmod>2016-12-28T05:36:04.214Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/07/30/git---gitignore-%EC%A0%81%EC%9A%A9-%EA%B4%80%EB%A0%A8/</loc>
+        <lastmod>2016-12-28T05:35:56.718Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/08/17/LLVM---2/</loc>
+        <lastmod>2016-12-28T05:35:34.982Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/08/25/Git%EC%9D%98-%EC%9C%A0%EC%9A%A9%EC%84%B1/</loc>
+        <lastmod>2016-12-28T05:35:23.238Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/08/29/Window%EC%97%90%EC%84%9C-GitHub%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:35:14.958Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/08/31/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0-0.10-+-%EC%9A%B0%EB%B6%84%ED%88%AC-16.04-+-CUDA-8.0-+-%ED%8C%8C%EC%9D%B4%EC%8D%AC-3.5-%EC%84%A4%EC%B9%98/</loc>
+        <lastmod>2016-12-28T05:35:13.670Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/08/31/Enventor/</loc>
+        <lastmod>2016-12-28T05:35:12.410Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/05/%EC%9D%B8%EC%83%9D%EB%AA%A9%ED%91%9C/</loc>
+        <lastmod>2016-12-28T05:35:04.922Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/05/%EB%AA%A8%EB%85%B8%EB%A6%AC%EC%96%BC-Monorial-%EC%A0%84%EC%B2%B4-%EB%8F%84%EA%B5%AC-%EC%A0%95%EB%A6%AC/</loc>
+        <lastmod>2016-12-28T05:35:03.534Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/06/wiki-downloac-to-pdf/</loc>
+        <lastmod>2016-12-28T05:34:58.066Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/06/zsh-shell-setting-%EA%B0%95%EB%A0%A5%ED%95%9C-%ED%83%AD-shell--/</loc>
+        <lastmod>2016-12-28T05:34:57.282Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/07/Eclipse%EC%97%90%EC%84%9C-GitHub%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-%5B2%5D/</loc>
+        <lastmod>2016-12-28T05:34:52.902Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/12/ssh%EC%A0%91%EC%86%8D%EC%9D%84-%EC%9C%84%ED%95%B4-%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C%EC%97%90-public-key-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:34:46.690Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/17/Yocto-Project%EC%97%90%EC%84%9C-%EC%99%B8%EB%B6%80-%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:34:37.442Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/19/git-error---pathspec--application-libraries-FileName--did-not.../</loc>
+        <lastmod>2016-12-28T05:34:35.254Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/19/Spring-+-Maven-+-Git-+-Jenkins-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:34:32.978Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/20/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-Can-t-start-Git-Error/</loc>
+        <lastmod>2016-12-28T05:34:30.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/25/%EB%A8%B8%ED%8B%B0%EB%A6%AC%EC%96%BC-%EB%94%94%EC%9E%90%EC%9D%B8(material-design)-ionic-%EB%AC%B4%EB%A3%8C-%ED%85%8C%EB%A7%88/</loc>
+        <lastmod>2016-12-28T05:34:24.946Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/26/Phabricator%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-code-review-%EB%B0%A9%EB%B2%95/</loc>
+        <lastmod>2016-12-28T05:34:24.382Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/26/php%EC%97%90-memcached.so-%ED%99%95%EC%9E%A5-%EB%AA%A8%EB%93%88-%EC%A0%81%EC%9A%A9/</loc>
+        <lastmod>2016-12-28T05:34:21.034Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/30/PHP-Suhosin-%EC%84%A4%EC%B9%98/</loc>
+        <lastmod>2016-12-28T05:34:10.455Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/09/30/%EB%A1%9C%EC%BB%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-git%EC%97%90-%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:34:08.091Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/02/%EC%9A%B0%EB%B6%84%ED%88%AC-%EA%B3%84%EC%97%B4%EC%97%90-Enlightenment-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:33:59.583Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/03/%ED%8C%80%EC%9D%84-%EC%9C%84%ED%95%9C-Git/</loc>
+        <lastmod>2016-12-28T05:33:57.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/04/Pull-Request/</loc>
+        <lastmod>2016-12-28T05:33:57.027Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/04/Atom%EC%9D%98-%EC%84%A4%EC%B9%98%EB%B0%A9%EB%B2%95%EA%B3%BC-%EC%B6%94%EC%B2%9C-%ED%8C%A8%ED%82%A4%EC%A7%80/</loc>
+        <lastmod>2016-12-28T05:33:55.983Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/05/Jekyll-Install-For-Mac/</loc>
+        <lastmod>2016-12-28T05:33:55.011Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/07/git-head-error-%EB%98%90%EB%8A%94-merge-%ED%95%A0%EB%95%8C-%EC%98%A4%EB%A5%98/</loc>
+        <lastmod>2016-12-28T05:33:51.935Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/13/rsync-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%B3%B5%EC%82%AC-%EB%B0%8F-%EB%8F%99%EA%B8%B0%ED%99%94/</loc>
+        <lastmod>2016-12-28T05:33:47.119Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/13/Bitbucket-Private-Repository%EB%A5%BC-ssh-key%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-git-clone-%ED%95%B4%EC%98%A4%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:33:45.987Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/19/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C(%EB%84%A5%EC%84%9C%EC%8A%A4-5x)-OS(AOSP)-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0---2.-%EC%86%8C%EC%8A%A4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C/</loc>
+        <lastmod>2016-12-28T05:33:35.435Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/19/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C(%EB%84%A5%EC%84%9C%EC%8A%A4-5x)-OS(AOSP)-%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0---3-1.-%EB%B9%8C%EB%93%9C-%EC%82%AC%EC%A0%84-%EC%9E%91%EC%97%85/</loc>
+        <lastmod>2016-12-28T05:33:34.435Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/21/Git-%EB%AA%85%EB%A0%B9%EC%96%B4/</loc>
+        <lastmod>2016-12-28T05:33:31.751Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/23/-SLiPP-Spring-boot,-JPA-%EA%B0%95%EC%9D%98---%EB%B0%98%EB%B3%B5%EC%A3%BC%EA%B8%B0-5/</loc>
+        <lastmod>2016-12-28T05:33:30.471Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/26/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%A0%95-%EB%B0%8F-%ED%85%8C%EB%A7%88-%EB%B3%80%EA%B2%BD-%EC%B4%9D%EC%A0%95%EB%A6%AC--/</loc>
+        <lastmod>2016-12-28T05:33:25.579Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/27/Git-bash%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC/</loc>
+        <lastmod>2016-12-28T05:33:22.635Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/10/28/Jazzy-%EC%82%AC%EC%9A%A9%EB%B2%95/</loc>
+        <lastmod>2016-12-28T05:33:22.027Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/06/2.-JPetStore-%EC%84%A4%EC%B9%98/</loc>
+        <lastmod>2016-12-28T05:32:55.947Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/07/git-github/</loc>
+        <lastmod>2016-12-28T05:32:53.903Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/13/Mac-%EC%9D%84-git-remote-repository-%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:32:40.987Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/14/-%EC%A7%80%EB%9D%BC%EC%99%80--%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C--%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EC%97%B0%EB%8F%99/</loc>
+        <lastmod>2016-12-28T05:32:39.987Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/14/OpenCV-contrib-%EC%84%A4%EC%B9%98-%EB%B0%8F-Cmake/</loc>
+        <lastmod>2016-12-28T05:32:37.363Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/16/%EC%8B%A0%EC%9E%85-%EC%B7%A8%EC%A4%80%EC%83%9D-%EB%B6%84%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%A0%9C%EC%95%88/</loc>
+        <lastmod>2016-12-28T05:32:32.743Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/16/GIT-3---GIT-Branching/</loc>
+        <lastmod>2016-12-28T05:32:31.539Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/16/GIT-4---GIT-Teamwork/</loc>
+        <lastmod>2016-12-28T05:32:29.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/23/Spring-Websocket-example-(%EC%9B%B9-%EC%B1%84%ED%8C%85)/</loc>
+        <lastmod>2016-12-28T05:32:20.803Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/23/%EC%8A%A4%ED%8E%99%EC%97%90-%EB%8F%84%EC%9B%80%EB%90%98%EB%8A%94-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%AA%A8%EC%9D%8C/</loc>
+        <lastmod>2016-12-28T05:32:17.359Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/24/Max-OS%EC%97%90%EC%84%9C-Jekyll%EB%A1%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-/</loc>
+        <lastmod>2016-12-28T05:32:14.183Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/26/Linux-%EB%AC%B4%EC%84%A0%EB%9E%9C-%EC%9D%B8%ED%84%B0%EB%84%B7-%EB%81%8A%EA%B9%80-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95-(rtl8723be)/</loc>
+        <lastmod>2016-12-28T05:32:08.584Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/11/30/Git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%AA%A8%EC%9D%8C/</loc>
+        <lastmod>2016-12-28T05:32:04.984Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/01/%EA%B3%BC%EC%A0%9C-%EA%B4%80%EB%A6%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-(PMS9)/</loc>
+        <lastmod>2016-12-28T05:32:02.416Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/02/%5BMongoose%5D/</loc>
+        <lastmod>2016-12-28T05:31:59.192Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/08/%ED%8C%8C%EC%9D%B4%EC%8D%AC-ImportError--No-module-named-requests/</loc>
+        <lastmod>2016-12-28T05:31:48.484Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/10/Switch-Accounts/</loc>
+        <lastmod>2016-12-28T05:31:44.332Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/10/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%A0%95%EB%B3%B4/</loc>
+        <lastmod>2016-12-28T05:31:43.340Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/11/ignore-plugin/</loc>
+        <lastmod>2016-12-28T05:31:40.428Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/13/stream-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95-%EC%9E%91%EC%97%85-%EA%B8%B0%EB%A1%9D/</loc>
+        <lastmod>2016-12-28T05:31:38.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/18/%EC%9A%B0%EB%B6%84%ED%88%AC-16.04%EC%97%90%EC%84%9C-%EA%B0%81%EC%A2%85-%EC%9C%A0%ED%8B%B8-%EB%B0%8F-%EA%B7%B8%EB%9E%98%ED%94%BD-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:31:30.324Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/19/Laravel-Homestead-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+        <lastmod>2016-12-28T05:31:26.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/20/vim-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%84%A4%EC%A0%95/</loc>
+        <lastmod>2016-12-28T05:31:21.716Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/20/SouceTree%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-GitHub-%EC%82%AC%EC%9A%A9%EB%B2%95/</loc>
+        <lastmod>2016-12-28T05:31:20.432Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://git.ampm.gq/2016/12/21/nodemon-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89/</loc>
+        <lastmod>2016-12-28T05:31:19.732Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
